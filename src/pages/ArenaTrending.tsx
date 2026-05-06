@@ -10,8 +10,6 @@ import BetModal from '../components/BetModal';
 const imgImage9 = "/assets/374ff845dc8136b6bcbc26b9c4446a708fb0be43.png";
 const imgLayer3 = "/assets/34dedc8e2a8a69c5694cd6b6349610bb39882973.svg";
 const imgLayer4 = "/assets/cf15046f418aad83878b934dc23520d07ed0bdc8.svg";
-const imgLayer2 = "/assets/16dd3a7e32d3974e6e69f8d4636530aaf7fa50e3.svg";
-const imgLayer1 = "/assets/2a8ba1295cb44833e2e64576d832fee04c35a58a.svg";
 const imgGroup7 = "/assets/92bcec29c39a9e109cfa5d69bcc669591c41ea25.svg";
 const imgLayer5 = "/assets/71fa71893636e737805b9cd3949b085a9c3a6186.svg";
 const imgLayer6 = "/assets/20c4f616641b53f3891058a5de0502fa95443aaa.svg";
