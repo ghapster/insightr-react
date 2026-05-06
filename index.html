@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Site is built as a fixed 1440px desktop canvas. Tell mobile browsers
+         the layout viewport is 1440px and let them auto-fit (initial-scale)
+         to the device. User can still pinch-zoom for small text. -->
+    <meta name="viewport" content="width=1440, user-scalable=yes" />
     <title>InsightR — The Real Edge in World Events</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -22,20 +22,6 @@ html, body, #root {
 
 body { overflow-x: hidden; }
 
-/* ================================================================
-   Mobile / narrow-viewport scaling
-   The site is built as a fixed 1440px canvas. On smaller screens
-   we proportionally scale the entire app to fit, preserving the
-   desktop layout while making it readable + interactive on phones.
-   `zoom` is supported in Chrome 1+, Safari 1+, Firefox 126+, all
-   iOS/Android browsers.
-   ================================================================ */
-@media (max-width: 1439px) {
-  #root {
-    zoom: calc(100vw / 1440);
-  }
-}
-
 /* Hero photo marquee — slow horizontal scroll on loop */
 @keyframes hero-scroll {
   from { transform: translateX(0); }
