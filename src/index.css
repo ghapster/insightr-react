@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Think Bold loaded from local file (not on Google Fonts) */
+@font-face {
+  font-family: 'Think';
+  src: url('/assets/fonts/Think-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Righteous and Open Sans are loaded via <link> in index.html — they
+   register in the browser as 'Righteous' and 'Open Sans' (which
+   Tailwind's font-['Open_Sans',...] resolves to via underscore→space). */
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body { overflow-x: hidden; }
+
+/* Hero photo marquee — slow horizontal scroll on loop */
+@keyframes hero-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.hero-marquee {
+  animation: hero-scroll 40s linear infinite;
+  will-change: transform;
+}
